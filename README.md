@@ -39,6 +39,8 @@ Besides Monero, following coins can be mined using this miner:
 - [Electroneum](https://electroneum.com)
 - [Intense](https://intensecoin.com)
 - [Sumokoin](https://www.sumokoin.org)
+- [Dero](https://dero.io)
+- [HavenProtocol](http://havenprotocol.com)
 
 For all coins, except Aeon, you can use Monero settings.
 
