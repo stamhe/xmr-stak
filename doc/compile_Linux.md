@@ -18,7 +18,7 @@
 ```
     # Ubuntu / Debian
     sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
-    git clone https://github.com/fireice-uk/xmr-stak.git
+    git clone https://github.com/stamhe/xmr-stak.git
     mkdir xmr-stak/build
     cd xmr-stak/build
     cmake ..
@@ -26,7 +26,7 @@
 
     # Arch
     sudo pacman -S base-devel hwloc openssl cmake libmicrohttpd
-    git clone https://github.com/fireice-uk/xmr-stak.git
+    git clone https://github.com/stamhe/xmr-stak.git
     mkdir xmr-stak/build
     cd xmr-stak/build
     cmake ..
@@ -34,7 +34,7 @@
 
     # Fedora
     sudo dnf install gcc gcc-c++ hwloc-devel libmicrohttpd-devel libstdc++-static make openssl-devel cmake
-    git clone https://github.com/fireice-uk/xmr-stak.git
+    git clone https://github.com/stamhe/xmr-stak.git
     mkdir xmr-stak/build
     cd xmr-stak/build
     cmake ..
@@ -44,7 +44,7 @@
     sudo yum install centos-release-scl epel-release
     sudo yum install cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel openssl-devel make
     scl enable devtoolset-4 bash
-    git clone https://github.com/fireice-uk/xmr-stak.git
+    git clone https://github.com/stamhe/xmr-stak.git
     mkdir xmr-stak/build
     cd xmr-stak/build
     cmake3 ..
@@ -59,7 +59,7 @@
     cd /tmp/cmake-3.4.1/ && ./configure && make && sudo make install && cd -
     sudo update-alternatives --install /usr/bin/cmake cmake /usr/local/bin/cmake 1 --force
     sudo apt install libmicrohttpd-dev libssl-dev libhwloc-dev
-    git clone https://github.com/fireice-uk/xmr-stak.git
+    git clone https://github.com/stamhe/xmr-stak.git
     mkdir xmr-stak/build
     cd xmr-stak/build
     cmake ..

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-# Disallow pull requests to `fireice-uk/xmr-stak` branch `master`
+# Disallow pull requests to `stamhe/xmr-stak` branch `master`
 #
 # - merging from `dev` or `release-...` located within our reposetory is allowed
 # - merging to `master` within a fork is allowed
@@ -17,7 +17,7 @@
 if [ "$TRAVIS" != "true" ] ; then
     echo "Not in travis, so I have nothing to do :)"
 else
-    xmrstak_slug="fireice-uk/xmr-stak"
+    xmrstak_slug="stamhe/xmr-stak"
 
     # check only pull requests to `master`
     if [ "$TRAVIS_EVENT_TYPE" == "pull_request" ] && [ "$TRAVIS_BRANCH" == "master" ] ; then
@@ -39,10 +39,10 @@ else
                 echo "sent to 'master' which is only updated by our maintainers for new stable releases."
                 echo ""
                 echo "Please re-open your pull-request against our 'dev' branch:"
-                echo "  https://github.com/fireice-uk/xmr-stak/compare/dev...$pr_author:$pr_branch?expand=1"
+                echo "  https://github.com/fireice-uk/stamhe/compare/dev...$pr_author:$pr_branch?expand=1"
                 echo ""
                 echo "For further information, please see:"
-                echo "  https://github.com/fireice-uk/xmr-stak/blob/dev/CONTRIBUTING.md"
+                echo "  https://github.com/fireice-uk/stamhe/blob/dev/CONTRIBUTING.md"
                 exit 1
             fi
         fi
