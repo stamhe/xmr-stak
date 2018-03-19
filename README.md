@@ -1,4 +1,4 @@
-###### fireice-uk's and psychocrypt's
+###### Stam He's
 # XMR-Stak - Monero/Aeon All-in-One Mining Software
 
 XMR-Stak is a universal Stratum pool miner. This miner supports CPUs, AMD and NVIDIA gpus and can be used to mine the crypto currency Monero and Aeon.
@@ -46,23 +46,18 @@ Please note, this list is not complete, and is not an endorsement.
 
 ## Download
 
-You can find the latest releases and precompiled binaries on GitHub under [Releases](https://github.com/fireice-uk/xmr-stak/releases).
+You can find the latest releases and precompiled binaries on GitHub under [Releases](https://github.com/stamhe/xmr-stak/releases).
 If you are running on Linux (especially Linux VMs), checkout [Linux Portable Binary](doc/Linux_deployment.md).
 
 ## Default Developer Donation
 
-By default the miner will donate 2% of the hashpower (2 minute in 100 minutes) to my pool. If you want to change that, edit [donate-level.hpp](xmrstak/donate-level.hpp) before you build the binaries.
+By default the miner will donate 1% of the hashpower (1 minute in 100 minutes) to my pool. If you want to change that, edit [donate-level.hpp](xmrstak/donate-level.hpp) before you build the binaries.
 
-If you want to donate directly to support further development, here is my wallet
+If you want to donate directly to support future development, here is my address
 
-fireice-uk:
+BTC:
 ```
-4581HhZkQHgZrZjKeCfCJxZff9E3xCgHGF25zABZz7oR71TnbbgiS7sK9jveE6Dx6uMs2LwszDuvQJgRZQotdpHt1fTdDhk
-```
-
-psychocrypt:
-```
-43NoJVEXo21hGZ6tDG6Z3g4qimiGdJPE6GRxAmiWwm26gwr62Lqo7zRiCJFSBmbkwTGNuuES9ES5TgaVHceuYc4Y75txCTU
+144CN5PzuJavx7pvrx5jq3d8JsWXaDer7B
 ```
 
 ## Release Checksums
@@ -106,3 +101,7 @@ MjnWXl/uOobML6K70g2UQcHcEDbPk8f9LUxX1++/I0aHsRMGMYhRj0ad5KYE1IY=
 =VCEv
 -----END PGP SIGNATURE-----
 ```
+
+## Thanks
+Thanks for fireice-uk and psychocrypt's work. Great Job!
+
