@@ -22,7 +22,7 @@ XMR-Stak is a universal Stratum pool miner. This miner supports CPUs, AMD and NV
 
 - support all common backends (CPU/x86, AMD-GPU and NVIDIA-GPU)
 - support all common OS (Linux, Windows and MacOS)
-- supports algorithm cryptonight for Monero (XMR), cryptonight-light (AEON), Dero(DERO), Haven(XHV) 
+- supports algorithm cryptonight for Monero (XMR), cryptonight-light (AEON), Dero(DERO), Haven(XHV), MapleCoin(MAP)
 - easy to use
   - guided start (no need to edit a config file for the first start)
   - auto configuration for each backend
@@ -41,6 +41,7 @@ Besides Monero, following coins can be mined using this miner:
 - [Sumokoin](https://www.sumokoin.org)
 - [Dero](https://dero.io)
 - [HavenProtocol](http://havenprotocol.com)
+- [Maple Coin](https://maplecoins.org)
 
 For all coins, except Aeon, you can use Monero settings.
 
